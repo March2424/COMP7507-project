@@ -1,0 +1,69 @@
+{
+  "transport_records_BUS": 56159,
+  "transport_records_GMB": 13106,
+  "transport_records_TRAM": 427,
+  "transport_records_FERRY": 260,
+  "transport_records_PTRAM": 12,
+  "transport_records_total": 69964,
+  "transport_unique_stops": 9454,
+  "transport_unique_routes": 2462,
+  "gtfs_weekday_trips": 47328,
+  "transport_stops_without_gtfs_departures": 106,
+  "rail_station_features": 390,
+  "rail_stations_dropped": [
+    "Hung Shui Kiu",
+    "Hung Tin Road Emergency Platform",
+    "Hong Kong West Kowloon",
+    "(unnamed)",
+    "Garden Road",
+    "The Peak",
+    "Summit",
+    "Waterfront",
+    "T1 Midfield Concourse",
+    "Fantasyland",
+    "T1 West Hall",
+    "Main Street, USA",
+    "T1 East Hall",
+    "Terminal 2",
+    "SkyPier",
+    "Light Rail Depot"
+  ],
+  "rail_stations_hk": 160,
+  "rail_lines_hk": 809,
+  "health_HOSP_raw": 44,
+  "health_HOSP_clean": 44,
+  "health_SOPC_raw": 49,
+  "health_SOPC_clean": 49,
+  "health_FMC_raw": 77,
+  "health_FMC_clean": 77,
+  "health_AE": 18,
+  "school_records_raw": 3496,
+  "school_records_clean": 3468,
+  "school_records_dropped": {
+    "invalid level": 28
+  },
+  "school_campuses": 2525,
+  "school_campuses_by_level": {
+    "PRIMARY": 693,
+    "SECONDARY": 624,
+    "KG": 1208
+  },
+  "school_campuses_by_finance": {
+    "PRIMARY/PUBLIC": 543,
+    "SECONDARY/PUBLIC": 474,
+    "PRIMARY/DSS": 23,
+    "SECONDARY/DSS": 58,
+    "PRIMARY/PRIVATE": 127,
+    "SECONDARY/PRIVATE": 92,
+    "KG/PRIVATE": 1208
+  },
+  "stops_outside_polygons_nearest_assigned": 10,
+  "settlement_points_from_stops": 76,
+  "deficit_counts": {
+    "T": 57,
+    "H": 40,
+    "E": 77,
+    "O": 66
+  },
+  "multi_deficit_dcca": 36
+}

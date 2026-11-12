@@ -1,0 +1,485 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.158943,
+          22.277605
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 1,
+        "stopId": 99801,
+        "stopPickDrop": 2,
+        "stopNameC": "花園道纜車總站",
+        "stopNameS": "花园道缆车总站",
+        "stopNameE": "Garden Road Peak Tram Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.158041,
+          22.276413
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 2,
+        "stopId": 99802,
+        "stopPickDrop": 3,
+        "stopNameC": "堅尼地道站",
+        "stopNameS": "坚尼地道站",
+        "stopNameE": "Kennedy Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.157575,
+          22.275411
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 3,
+        "stopId": 99803,
+        "stopPickDrop": 3,
+        "stopNameC": "麥當勞道站",
+        "stopNameS": "麦当劳道站",
+        "stopNameE": "Macdonnell Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.156023,
+          22.273758
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 4,
+        "stopId": 99804,
+        "stopPickDrop": 3,
+        "stopNameC": "梅道站",
+        "stopNameS": "梅道站",
+        "stopNameE": "May Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.151589,
+          22.271012
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 5,
+        "stopId": 99805,
+        "stopPickDrop": 3,
+        "stopNameC": "白加道站",
+        "stopNameS": "白加道站",
+        "stopNameE": "Barker Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.149542,
+          22.271346
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 1,
+        "stopSeq": 6,
+        "stopId": 99806,
+        "stopPickDrop": 1,
+        "stopNameC": "山頂纜車總站",
+        "stopNameS": "山顶缆车总站",
+        "stopNameE": "Peak Tram Terminus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.149542,
+          22.271346
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 1,
+        "stopId": 99806,
+        "stopPickDrop": 2,
+        "stopNameC": "山頂纜車總站",
+        "stopNameS": "山顶缆车总站",
+        "stopNameE": "Peak Tram Terminus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.151589,
+          22.271012
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 2,
+        "stopId": 99805,
+        "stopPickDrop": 3,
+        "stopNameC": "白加道站",
+        "stopNameS": "白加道站",
+        "stopNameE": "Barker Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.156023,
+          22.273758
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 3,
+        "stopId": 99804,
+        "stopPickDrop": 3,
+        "stopNameC": "梅道站",
+        "stopNameS": "梅道站",
+        "stopNameE": "May Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.157575,
+          22.275411
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 4,
+        "stopId": 99803,
+        "stopPickDrop": 3,
+        "stopNameC": "麥當勞道站",
+        "stopNameS": "麦当劳道站",
+        "stopNameE": "Macdonnell Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.158041,
+          22.276413
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 5,
+        "stopId": 99802,
+        "stopPickDrop": 3,
+        "stopNameC": "堅尼地道站",
+        "stopNameS": "坚尼地道站",
+        "stopNameE": "Kennedy Road Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.158943,
+          22.277605
+        ]
+      },
+      "properties": {
+        "routeId": 5001,
+        "companyCode": "PTRAM",
+        "district": "",
+        "routeNameC": "中環(花園道) - 山頂",
+        "routeNameS": "中环(花园道) - 山顶",
+        "routeNameE": "Central (Garden Road) - The Peak",
+        "routeType": 5,
+        "serviceMode": "R",
+        "specialType": 0,
+        "journeyTime": 9,
+        "locStartNameC": "中環(花園道)",
+        "locStartNameS": "中环(花园道)",
+        "locStartNameE": "Central (Garden Road)",
+        "locEndNameC": "山頂",
+        "locEndNameS": "山顶",
+        "locEndNameE": "The Peak",
+        "hyperlinkC": "https://www.thepeak.com.hk/zh-hant/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkS": "https://www.thepeak.com.hk/zh-hans/the-peak-experience/the-peak-tram-upgrade-project",
+        "hyperlinkE": "https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project",
+        "fullFare": 82.0,
+        "lastUpdateDate": "2025-12-29T00:00:00",
+        "routeSeq": 2,
+        "stopSeq": 6,
+        "stopId": 99801,
+        "stopPickDrop": 1,
+        "stopNameC": "花園道纜車總站",
+        "stopNameS": "花园道缆车总站",
+        "stopNameE": "Garden Road Peak Tram Terminal"
+      }
+    }
+  ]
+}

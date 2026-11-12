@@ -1,0 +1,502 @@
+"""
+Builds `web/index.html` and the 5 dedicated multi-page entry HTML files
+(`atlas.html`, `explorer.html`, `sectors.html`, `community.html`, `simulator.html`).
+
+Design: "Paper" — white canvas, ink-gray typography, hairline structure,
+thin-line SVG icons (see web/assets/js/icons.js); colour is reserved for data.
+"""
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WEB = os.path.join(ROOT, "web")
+
+TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>香港 452 选区公共服务供需公平可视分析 | COMP7507 Group 36</title>
+  <link rel="stylesheet" href="assets/lib/maplibre-gl.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- ====================================================================
+       Header — brand · page tabs · global dimension switch
+       ==================================================================== -->
+  <header class="app-header">
+    <div class="brand-box">
+      <div class="brand-mark">HK</div>
+      <div>
+        <div class="brand-title">香港公共服务供需公平</div>
+        <div class="brand-sub">452 选区空间可视分析 · Group 36</div>
+      </div>
+    </div>
+
+    <nav class="page-nav" aria-label="Workspace Pages">
+      <a href="atlas.html" class="page-tab" data-page="atlas"><i data-icon="map"></i>空间总览</a>
+      <a href="explorer.html" class="page-tab" data-page="explorer"><i data-icon="scatter"></i>假设检验</a>
+      <a href="sectors.html" class="page-tab" data-page="sectors"><i data-icon="sectors"></i>专题剖析</a>
+      <a href="community.html" class="page-tab" data-page="community"><i data-icon="users"></i>社区对比</a>
+      <a href="simulator.html" class="page-tab" data-page="simulator"><i data-icon="sliders"></i>规划沙盘</a>
+    </nav>
+
+    <div class="header-controls">
+      <div class="seg" title="全局服务维度">
+        <button class="dim-btn active" data-dim="O"><i data-icon="globe" data-size="14"></i>综合</button>
+        <button class="dim-btn" data-dim="T"><i data-icon="bus" data-size="14"></i>交通</button>
+        <button class="dim-btn" data-dim="H"><i data-icon="health" data-size="14"></i>医疗</button>
+        <button class="dim-btn" data-dim="E"><i data-icon="school" data-size="14"></i>教育</button>
+      </div>
+      <button class="icon-btn" id="btn-start-tour"><i data-icon="play" data-size="14"></i>导览</button>
+      <button class="icon-btn" id="btn-qa-modal"><i data-icon="info" data-size="14"></i>方法</button>
+    </div>
+  </header>
+
+  <main class="workspace-container">
+
+    <!-- ==================================================================
+         PAGE 1 · 空间总览
+         ================================================================== -->
+    <section class="page-view fixed" id="view-atlas">
+      <div class="atlas-grid">
+        <aside class="atlas-left">
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="map"></i>地图编码</span></div>
+            <select id="atlas-map-mode" style="width:100%;margin-bottom:18px;">
+              <option value="bivariate">供需九宫格（双变量）</option>
+              <option value="gap">供需落差指数</option>
+              <option value="supply">供给可达性百分位</option>
+              <option value="need">人口刚需百分位</option>
+              <option value="lisa">LISA 空间聚类</option>
+            </select>
+            <div id="biv-matrix-container"></div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="pin"></i>区域筛选</span></div>
+            <div class="seg" style="display:flex;">
+              <button class="seg-btn active" data-region-filter="ALL" style="flex:1;justify-content:center;">全港</button>
+              <button class="seg-btn" data-region-filter="HKI" style="flex:1;justify-content:center;">港岛</button>
+              <button class="seg-btn" data-region-filter="KLN" style="flex:1;justify-content:center;">九龙</button>
+              <button class="seg-btn" data-region-filter="NT" style="flex:1;justify-content:center;">新界</button>
+            </div>
+            <div class="search-field" style="margin-top:12px;">
+              <i data-icon="search" data-size="14"></i>
+              <input type="search" id="atlas-search-input" placeholder="搜索选区代码或名称" />
+            </div>
+            <div class="district-list" id="atlas-district-list"></div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="layers"></i>图层</span></div>
+            <div class="layer-toggle-list">
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="cube" data-size="15"></i>3D 刚需高度</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="extrusion" /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="train" data-size="15"></i>铁路网络</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="rail" checked /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="hospital" data-size="15"></i>公立医疗设施</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="hospitals" /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="school" data-size="15"></i>学校校舍</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="schools" /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="bus" data-size="15"></i>巴士枢纽</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="stops" /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="siren" data-size="15"></i>急症室连线</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="spiderAE" /><span class="track"></span></span>
+              </label>
+              <label class="layer-row">
+                <span class="lbl"><i data-icon="route" data-size="15"></i>跨区通勤流向</span>
+                <span class="switch"><input type="checkbox" data-layer-toggle="odArcs" /><span class="track"></span></span>
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <div class="atlas-center">
+          <div class="kpi-row" id="atlas-kpi-strip"></div>
+          <div class="map-frame">
+            <div id="atlas-map"></div>
+            <div class="map-legend" id="atlas-map-legend" style="display:none;"></div>
+            <div class="map-tooltip" id="atlas-tooltip"></div>
+          </div>
+        </div>
+
+        <aside class="atlas-right">
+          <div class="side-block">
+            <div class="block-title">
+              <span class="left"><i data-icon="target"></i>焦点选区</span>
+              <span class="panel-subtitle">点击地图切换</span>
+            </div>
+            <div id="atlas-spotlight-card"></div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title">
+              <span class="left"><i data-icon="sectors"></i>18 区平均供需落差</span>
+              <span class="panel-subtitle">点击筛选</span>
+            </div>
+            <div id="atlas-district-chart"></div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title">
+              <span class="left"><i data-icon="scatter"></i>空间洛伦兹曲线</span>
+              <span class="panel-subtitle">越贴近对角线越公平</span>
+            </div>
+            <div id="atlas-lorenz-chart"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         PAGE 2 · 假设检验
+         ================================================================== -->
+    <section class="page-view" id="view-explorer">
+      <div class="page-intro">
+        <div>
+          <div class="page-eyebrow">Hypothesis Lab</div>
+          <div class="page-heading">假设检验与多维刷选</div>
+          <div class="page-lede">选择研究假设或自定义 X / Y 指标。在散点图中框选、或在平行坐标轴上拖拽，散点、地图与平行坐标三视图联动。</div>
+        </div>
+      </div>
+
+      <div class="explorer-grid">
+        <div class="hyp-bar">
+          <div class="pill-bar">
+            <button class="pill-btn" data-hyp-preset="H1a" title="长者比例 vs 医疗可达性">H1a</button>
+            <button class="pill-btn" data-hyp-preset="H1b" title="长者比例 vs 急症室距离">H1b</button>
+            <button class="pill-btn" data-hyp-preset="H1c" title="低收入户 vs 2km 诊所">H1c</button>
+            <button class="pill-btn" data-hyp-preset="H2a" title="跨区工作 vs 交通可达性">H2a</button>
+            <button class="pill-btn active" data-hyp-preset="H2b" title="跨区工作 vs 直达核心区路线">H2b</button>
+            <button class="pill-btn" data-hyp-preset="H2c" title="公屋比例 vs 车资负担">H2c</button>
+            <button class="pill-btn" data-hyp-preset="H3a" title="少儿比例 vs 教育可达性">H3a</button>
+            <button class="pill-btn" data-hyp-preset="H3b" title="少儿比例 vs 1km 官津小学">H3b</button>
+          </div>
+          <div class="axis-controls">
+            <span>X</span><select id="explorer-x-select"></select>
+            <span style="margin-left:6px;">Y</span><select id="explorer-y-select"></select>
+            <span style="margin-left:6px;">着色</span>
+            <select id="explorer-color-select">
+              <option value="bivariate">供需九宫格</option>
+              <option value="lisa">LISA 聚类</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="explorer-top-row">
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title"><i data-icon="scatter"></i><span id="explorer-hyp-title">回归散点</span></div>
+              <span class="panel-subtitle">圆点面积 = 人口 · 拖拽框选</span>
+            </div>
+            <div class="panel-body" id="explorer-scatter-container" style="height:400px;overflow:hidden;padding:4px 16px 4px;"></div>
+            <div class="finding-box" id="explorer-stat-strip"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title"><i data-icon="map"></i>刷选子集空间分布</div>
+            </div>
+            <div class="panel-body" style="display:flex;flex-direction:column;gap:14px;">
+              <div id="explorer-minimap-container" style="height:300px;"></div>
+              <div id="explorer-brush-summary"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="sliders"></i>平行坐标 <span class="panel-subtitle" style="margin-left:2px;">Brushable Parallel Coordinates</span></div>
+            <div style="display:flex;align-items:center;gap:14px;">
+              <span class="panel-subtitle">在任意轴上下拖拽筛选，多轴取交集</span>
+              <button class="pill-btn" id="btn-pc-triple-deficit">高亮多重赤字选区</button>
+            </div>
+          </div>
+          <div class="panel-body" id="explorer-parcoords-container" style="height:340px;overflow:hidden;padding:6px 20px 18px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         PAGE 3 · 专题剖析
+         ================================================================== -->
+    <section class="page-view" id="view-sectors">
+      <div class="page-intro">
+        <div>
+          <div class="page-eyebrow">Sector Deep-Dive</div>
+          <div class="page-heading">交通 · 医疗 · 教育</div>
+          <div class="page-lede">从运力时序、通勤流向、急救距离与学校体制四个角度，拆解三类公共服务的供给结构。</div>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="bus"></i>24 小时公交发车脉冲</div>
+            <select id="sector-gtfs-district-select" style="max-width:200px;"></select>
+          </div>
+          <div class="panel-body" id="sector-gtfs-chart" style="min-height:290px;"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="route"></i>居住地 → 房屋类型 → 通勤去向</div>
+            <div class="seg">
+              <button class="seg-btn active" data-sankey-mode="work">工作</button>
+              <button class="seg-btn" data-sankey-mode="study">求学</button>
+            </div>
+          </div>
+          <div class="panel-body" id="sector-sankey-chart" style="min-height:290px;"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="siren"></i>至最近 24h 急症室的距离</div>
+            <span class="panel-subtitle">柱高 = 选区数 · 标注 = 涉及长者</span>
+          </div>
+          <div class="panel-body" id="sector-ae-dist-chart" style="min-height:290px;"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="school"></i>18 区学校办学体制</div>
+            <span class="panel-subtitle">2,525 所独立校舍</span>
+          </div>
+          <div class="panel-body" id="sector-edu-chart" style="min-height:290px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         PAGE 4 · 社区对比
+         ================================================================== -->
+    <section class="page-view" id="view-community">
+      <div class="page-intro" style="margin-bottom:16px;">
+        <div>
+          <div class="page-eyebrow">Community Comparison</div>
+          <div class="page-heading">两个社区，一组指标</div>
+        </div>
+      </div>
+
+      <div class="compare-header-bar">
+        <div class="compare-selectors">
+          <div class="comm-tag">
+            <span class="tag-lbl"><span class="dot" style="background:var(--c-a)"></span>社区 A</span>
+            <select id="compare-select-a"></select>
+          </div>
+          <span class="vs-mark">vs</span>
+          <div class="comm-tag">
+            <span class="tag-lbl"><span class="dot" style="background:var(--c-b)"></span>社区 B</span>
+            <select id="compare-select-b"></select>
+          </div>
+        </div>
+        <div class="pill-bar" id="compare-preset-bar"></div>
+      </div>
+
+      <div class="compare-grid">
+        <div class="compare-left">
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title"><i data-icon="target"></i>六维百分位</div>
+              <span class="panel-subtitle">虚线 = 所属区均值</span>
+            </div>
+            <div class="panel-body" id="compare-radar-chart"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title"><i data-icon="bus"></i>24 小时公交脉冲</div>
+            </div>
+            <div class="panel-body" id="compare-pulse-chart"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title"><i data-icon="pin"></i>空间位置</div>
+            </div>
+            <div class="panel-body" id="compare-minimap-chart"></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title"><i data-icon="sectors"></i>指标镜像对比</div>
+            <span class="panel-subtitle">悬停查看分子 / 分母与区均值 · # 为全港排名</span>
+          </div>
+          <div id="compare-butterfly-container" style="padding-bottom:16px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         PAGE 5 · 规划沙盘
+         ================================================================== -->
+    <section class="page-view fixed" id="view-simulator">
+      <div class="sim-grid">
+        <aside class="sim-col">
+          <div class="side-block">
+            <div class="block-title">
+              <span class="left"><i data-icon="plus"></i>新增设施</span>
+              <button class="pill-btn" id="btn-sim-auto-optimize"><i data-icon="zap" data-size="13"></i>智能选址</button>
+            </div>
+            <div class="sim-tool-list">
+              <div class="sim-tool-card active" data-sim-tool="AE">
+                <span class="tool-ico" style="color:#d55e00"><i data-icon="hospital" data-size="17"></i></span>
+                <div><div class="tool-name">24h 急症室医院</div><div class="tool-meta">半径 5.0 km · 权重 10</div></div>
+              </div>
+              <div class="sim-tool-card" data-sim-tool="CLINIC">
+                <span class="tool-ico" style="color:#cc79a7"><i data-icon="stethoscope" data-size="17"></i></span>
+                <div><div class="tool-name">专科 / 家庭诊所</div><div class="tool-meta">半径 3.0 km · 权重 4.5</div></div>
+              </div>
+              <div class="sim-tool-card" data-sim-tool="BUS">
+                <span class="tool-ico" style="color:#e69f00"><i data-icon="bus" data-size="17"></i></span>
+                <div><div class="tool-name">跨区巴士枢纽</div><div class="tool-meta">半径 1.0 km · 高峰 +160 班/时</div></div>
+              </div>
+              <div class="sim-tool-card" data-sim-tool="MTR">
+                <span class="tool-ico" style="color:#0072b2"><i data-icon="train" data-size="17"></i></span>
+                <div><div class="tool-name">港铁车站</div><div class="tool-meta">半径 1.3 km · 权重 1.2</div></div>
+              </div>
+              <div class="sim-tool-card" data-sim-tool="SCHOOL">
+                <span class="tool-ico" style="color:#009e73"><i data-icon="school" data-size="17"></i></span>
+                <div><div class="tool-name">官津中小学</div><div class="tool-meta">半径 1.6 km · 权重 3.0</div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title">
+              <span class="left"><i data-icon="sliders"></i>情景参数</span>
+              <button class="text-btn" id="btn-sim-reset"><i data-icon="reset" data-size="13"></i>重置</button>
+            </div>
+            <div class="slider-group">
+              <div class="slider-header"><span>长者人口增长</span><span class="slider-val" id="sim-val-aging">+0%</span></div>
+              <input type="range" id="sim-slider-aging" min="0" max="40" step="5" value="0" />
+            </div>
+            <div class="slider-group">
+              <div class="slider-header"><span>北部都会区本地就业</span><span class="slider-val" id="sim-val-jobs">−0%</span></div>
+              <input type="range" id="sim-slider-jobs" min="0" max="35" step="5" value="0" />
+            </div>
+            <div class="slider-group">
+              <div class="slider-header"><span>服务半径乘数</span><span class="slider-val" id="sim-val-catch">1.00x</span></div>
+              <input type="range" id="sim-slider-catch" min="100" max="140" step="5" value="100" />
+            </div>
+            <div class="slider-group" style="margin-bottom:0;">
+              <div class="slider-header"><span>学龄儿童变动</span><span class="slider-val" id="sim-val-child">+0%</span></div>
+              <input type="range" id="sim-slider-child" min="-20" max="25" step="5" value="0" />
+            </div>
+          </div>
+
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="pin"></i>已布设</span></div>
+            <div id="sim-placed-list"></div>
+          </div>
+        </aside>
+
+        <div class="map-frame">
+          <div id="sim-map"></div>
+          <div class="map-hint"><i data-icon="target" data-size="14"></i>点击地图放置设施，实时重算 2SFCA 与基尼系数</div>
+        </div>
+
+        <aside class="sim-col right">
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="check"></i>干预成效</span></div>
+            <div id="sim-impact-kpis"></div>
+          </div>
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="scatter"></i>洛伦兹曲线 · 前后对比</span></div>
+            <div id="sim-lorenz-chart"></div>
+          </div>
+          <div class="side-block">
+            <div class="block-title"><span class="left"><i data-icon="arrowRight"></i>受惠最显著选区</span></div>
+            <div id="sim-improved-list" class="rank-list"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Story tour -->
+  <div class="story-banner" id="story-tour-banner"></div>
+
+  <!-- Methodology modal -->
+  <div class="modal-backdrop" id="qa-modal-backdrop">
+    <div class="modal-card">
+      <div class="panel-header">
+        <div class="panel-title" style="font-size:16px;">数据与方法</div>
+        <button class="text-btn" id="btn-close-qa"><i data-icon="x" data-size="16"></i></button>
+      </div>
+      <div class="panel-body">
+        <div class="method-block">
+          <h4>1 · 多源开放数据清洗</h4>
+          <ul>
+            <li><strong>人口普查与选区边界：</strong>清洗 <code>DCCA_21C.CSV</code>，剔除表头、脚注及全港汇总行（<code>dcca=9999</code>），对齐 452 个选区，全港陆上人口 7,411,945 人零误差。5,184 处 <code>"-"</code> 转为 0，14 处保密符 <code>"**"</code> 转为缺失值。拓扑保真抽稀将 690,333 顶点精简至 47,225。</li>
+            <li><strong>公共交通：</strong>融合巴士、小巴、电车、渡轮、缆车共 69,964 条路线-站点序列，去重为 9,454 个物理站点与 2,462 条路线；解析 GTFS 典型工作日 47,328 个班次。铁路保留 98 座港铁站与 62 座轻铁站。</li>
+            <li><strong>公立医疗：</strong>44 间公立医院（18 间设 24 小时急症室）、49 间专科门诊、77 间家庭医学诊所。</li>
+            <li><strong>学校：</strong>3,496 条记录剔除 28 条无效行，按校名与 10 米网格归并为 2,525 所独立校舍。</li>
+          </ul>
+        </div>
+        <div class="method-block">
+          <h4>2 · 聚落重心修正与高斯 2SFCA</h4>
+          <p>对面积 &gt;1.5 km² 的 76 个选区，以区内公交站点坐标中位数作为聚落人口重心。在交通（公路 800m、铁路 1200m）、医疗（医院 5000m、诊所 3000m）、教育（幼 1000m、小 1500m、中 2000m）三维度执行高斯衰减两步移动搜寻：</p>
+          <p style="margin-top:6px;"><code>R_j = S_j / Σ D_k · G(d_kj, d_0)</code>　<code>A_i = Σ R_j · G(d_ij, d_0)</code></p>
+        </div>
+        <div class="method-block">
+          <h4>3 · 空间自相关、基尼系数与局限</h4>
+          <p>基于 Queen 邻接（离岛 kNN=3 补充）执行 999 次置换的 LISA 检验。供需落差呈显著正空间自相关（综合 I = 0.636，交通 0.618，医疗 0.463，教育 0.453）。</p>
+          <p style="margin-top:6px;color:var(--text-muted);">局限：普查为 2021 年时点，设施数据为 2026 年；医院病床与学位上限未公开，以设施层级与班制加权代理；直线距离未计地形阻抗。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/lib/maplibre-gl.js"></script>
+  <script src="assets/lib/d3.min.js"></script>
+  <script src="assets/lib/d3-sankey.min.js"></script>
+  <script src="data/hk_bundle.js"></script>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/page1_atlas.js"></script>
+  <script src="assets/js/page2_explorer.js"></script>
+  <script src="assets/js/page3_sectors.js"></script>
+  <script src="assets/js/page4_community.js"></script>
+  <script src="assets/js/page5_simulator.js"></script>
+  <script src="assets/js/story_tour.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.HKCore.initHeaderAndRouting("__DEFAULT_PAGE__");
+      window.HKAtlas.init();
+      window.HKExplorer.init();
+      window.HKSectors.init();
+      window.HKCommunity.init();
+      window.HKSimulator.init();
+      window.HKStoryTour.init();
+    });
+  </script>
+</body>
+</html>
+"""
+
+PAGES = [
+    ("index.html", "atlas"),
+    ("atlas.html", "atlas"),
+    ("explorer.html", "explorer"),
+    ("sectors.html", "sectors"),
+    ("community.html", "community"),
+    ("simulator.html", "simulator"),
+]
+
+for filename, default_page in PAGES:
+    out_path = os.path.join(WEB, filename)
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(TEMPLATE.replace("__DEFAULT_PAGE__", default_page))
+    print(f"Generated {out_path} (default={default_page})")

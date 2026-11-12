@@ -1,0 +1,216 @@
+﻿field,group,description
+dc_class,District Council district (class),District Council district (class)
+dc,District Council district,District Council district
+dcca_class,District Council/ Constituency Area,District Council/ Constituency Area
+dcca,District Council/ Constituency Area (class),District Council/ Constituency Area (class)
+dc_eng,Name of District Council district (in English),Name of District Council district (in English)
+ca_eng,Name of Constituency Area (in English),Name of Constituency Area (in English)
+dcca_eng,Name of District Council/ Constituency Area (in English),Name of District Council/ Constituency Area (in English)
+dc_chi,Name of District Council (in Chinese),Name of District Council (in Chinese)
+ca_chi,Name of Constituency Area (in Chinese),Name of Constituency Area (in Chinese)
+dcca_chi,Name of District Council/ Constituency Area (in Chinese),Name of District Council/ Constituency Area (in Chinese)
+t_pop,Total population,Total population
+pop_m,Population by sex,Male
+pop_f,Population by sex,Female
+sr,Sex ratio (i.e. the number of males per 1 000 females in the respective age group),Sex ratio (i.e. the number of males per 1 000 females in the respective age group)
+age_1,Population by age group,< 15 
+age_2,Population by age group,15 - 24
+age_3,Population by age group,25 - 44
+age_4,Population by age group,45 - 64
+age_5,Population by age group,65+ 
+t_ma,Median age by sex,Both sexes
+ma_m,Median age by sex,Male
+ma_f,Median age by sex,Female
+born_hk,Population by place of birth,Hong Kong
+born_chi,Population by place of birth,Chinese Mainland / ‌Macao / Taiwan
+born_else,Population by place of birth,Elsewhere
+ethn_chi,Population by ethnicity,Chinese
+ethn_phi,Population by ethnicity,Filipino
+ethn_ind,Population by ethnicity,Indonesian
+ethn_wh,Population by ethnicity,White
+ethn_oth,Population by ethnicity,Others(1)
+ms_nm_m,Males aged 15 and over by marital status,Never married
+ms_ma_m,Males aged 15 and over by marital status,Married
+ms_win_m,Males aged 15 and over by marital status,Widowed
+ms_div_m,Males aged 15 and over by marital status,Divorced
+ms_sep_m,Males aged 15 and over by marital status,Separated
+ms_nm_f,Females aged 15 and over by marital status,Never married
+ms_m_f,Females aged 15 and over by marital status,Married
+ms_win_f,Females aged 15 and over by marital status,Widowed
+ms_div_f,Females aged 15 and over by marital status,Divorced
+ms_sep_f,Females aged 15 and over by marital status,Separated
+ul_can,Population aged 5 and over by usual spoken language(2),Cantonese
+ul_put,Population aged 5 and over by usual spoken language(2),Putonghua
+ul_othchi,Population aged 5 and over by usual spoken language(2),Other Chinese dialects
+ul_eng,Population aged 5 and over by usual spoken language(2),English
+ul_oth,Population aged 5 and over by usual spoken language(2),Other languages
+readchi_ablepctn,Proportion of population aged 5 and over able to read Chinese,Proportion of population aged 5 and over able to read Chinese
+readeng_ablepctn,Proportion of population aged 5 and over able to read English,Proportion of population aged 5 and over able to read English
+writechi_ablepctn,Proportion of population aged 5 and over able to write Chinese,Proportion of population aged 5 and over able to write Chinese
+writeeng_ablepctn,Proportion of population aged 5 and over able to write English,Proportion of population aged 5 and over able to write English
+edu_prepri,Population aged 15 and over by educational attainment (highest level attended),No schooling/ Pre-primary
+edu_pri,Population aged 15 and over by educational attainment (highest level attended),Primary
+edu_lsed,Population aged 15 and over by educational attainment (highest level attended),Lower secondary
+edu_usec,Population aged 15 and over by educational attainment (highest level attended),Upper secondary
+edu_dip,Population aged 15 and over by educational attainment (highest level attended),Post-secondary: Diploma/ Certificate
+edu_sub,Population aged 15 and over by educational attainment (highest level attended),Post-secondary: Sub-degree course
+edu_deg,Population aged 15 and over by educational attainment (highest level attended),Post-secondary: Degree course
+pls_same,Persons studying full-time courses in educational institutions in Hong Kong by place of study,Study in the same district(3)
+pls_diff_hk,Persons studying full-time courses in educational institutions in Hong Kong by place of study,Study in another district on Hong Kong Island
+pls_diff_kln,Persons studying full-time courses in educational institutions in Hong Kong by place of study,Study in another district in Kowloon
+pls_diff_nt,Persons studying full-time courses in educational institutions in Hong Kong by place of study,Study in another district in new towns
+s_diff_oth,Persons studying full-time courses in educational institutions in Hong Kong by place of study,Study in another district in other areas in the New Territories
+t_lf,Labour force,Labour force
+lf_m,Labour force by sex,Male
+lf_f,Labour force by sex,Female
+lfpr_t,Labour force participation rate(4) by sex,Both sexes
+lfpr_m,Labour force participation rate(4) by sex,Male
+lfpr_f,Labour force participation rate(4) by sex,Female
+t_wp,Working population,Working population
+wp_ee,Working population by employment status,Employees (including outworkers)
+wp_er,Working population by employment status,Employers
+wp_se,Working population by employment status,Self-employed
+wp_fw,Working population by employment status,Unpaid family workers
+t_nwp,Non-working population,Non-working population
+nwp_hm,Non-working population by economic activity status(5),Home-makers
+nwp_st,Non-working population by economic activity status(5),Students
+nwp_re,Non-working population by economic activity status(5),Retired
+nwp_care,Non-working population by economic activity status(5),Unpaid carers(6)
+nwp_oth,Non-working population by economic activity status(5),Others
+plw_same,Working population by place of work,Work in the same district(7)
+plw_diff_hk,Working population by place of work,Work in another district on Hong Kong Island
+plw_diff_kln,Working population by place of work,Work in another district in Kowloon
+plw_diff_nt,Working population by place of work,Work in another district in new towns
+plw_diff_oth,Working population by place of work,Work in another district in other areas in the New Territories
+plw_nofix,Working population by place of work,No fixed place/ Marine
+plw_hm,Working population by place of work,Work at home
+plw_out,Working population by place of work,Places outside Hong Kong
+mearn_xfdh_1,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"Less than 6,000"
+mearn_xfdh_2,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"6,000 - 9,999"
+mearn_xfdh_3,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"10,000 - 19,999"
+mearn_xfdh_4,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"20,000 - 29,999"
+mearn_xfdh_5,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"30,000 - 39,999"
+mearn_xfdh_6,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"40,000 - 59,999"
+mearn_xfdh_7,Working population (excluding unpaid family workers) by monthly income from main employment (HK$),"60,000 and over"
+t_mmearn,Median monthly income from main employment (HK$) (excluding unpaid family workers) by sex,Both sexes
+mmearn_m,Median monthly income from main employment (HK$) (excluding unpaid family workers) by sex,Male
+mmearn_f,Median monthly income from main employment (HK$) (excluding unpaid family workers) by sex,Female
+mearn_xfdhfw_1,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"Less than 6,000"
+mearn_xfdhfw_2,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"6,000 - 9,999"
+mearn_xfdhfw_3,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"10,000 - 19,999"
+mearn_xfdhfw_4,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"20,000 - 29,999"
+mearn_xfdhfw_5,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"30,000 - 39,999"
+mearn_xfdhfw_6,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"40,000 - 59,999"
+mearn_xfdhfw_7,Working population (excluding foreign domestic helpers and unpaid family workers) by monthly income from main employment (HK$),"60,000 and over"
+t_mmearn_xfdh,Median monthly income from main employment (HK$) (excluding foreign domestic helpers and unpaid family workers) by sex,Both sexes
+mmearn_xfdh_m,Median monthly income from main employment (HK$) (excluding foreign domestic helpers and unpaid family workers) by sex,Male
+mmearn_xfdh_f,Median monthly income from main employment (HK$) (excluding foreign domestic helpers and unpaid family workers) by sex,Female
+wp_a,Working population by occupation(8),Managers
+wp_b,Working population by occupation(8),Professionals
+wp_c,Working population by occupation(8),Associate professionals
+wp_d,Working population by occupation(8),Clerical support workers
+wp_e,Working population by occupation(8),Service and sales workers
+wp_f,Working population by occupation(8),Craft and related workers
+wp_g,Working population by occupation(8),Plant and machine operators and assemblers
+wp_h,Working population by occupation(8),Elementary occupations
+wp_i,Working population by occupation(8),Skilled agricultural and fishery workers; and occupations not classifiable
+wp_j,Working population by industry(9),Manufacturing
+wp_k,Working population by industry(9),Construction
+wp_l,Working population by industry(9),"Import/export, wholesale and retail trades"
+wp_m,Working population by industry(9),"Transportation, storage, postal and courier services"
+wp_n,Working population by industry(9),Accommodation and food services
+wp_o,Working population by industry(9),Information and communications
+wp_p,Working population by industry(9),Financing and insurance
+wp_q,Working population by industry(9),"Real estate, professional and business services"
+wp_r,Working population by industry(9),"Public administration, education, human health and social work activities"
+wp_s,Working population by industry(9),Miscellaneous social and personal services
+wp_t,Working population by industry(9),Others(10)
+whr_1,Working population by weekly usual hours of work of all employment,Less than 18
+whr_2,Working population by weekly usual hours of work of all employment,18-34
+whr_3,Working population by weekly usual hours of work of all employment,35-44
+whr_4,Working population by weekly usual hours of work of all employment,45-54
+whr_5,Working population by weekly usual hours of work of all employment,55-64
+whr_6,Working population by weekly usual hours of work of all employment,65 and over
+dh,Domestic households,Domestic households
+dhz_1,Domestic households by household size,1
+dhz_2,Domestic households by household size,2
+dhz_3,Domestic households by household size,3
+dhz_4,Domestic households by household size,4
+dhz_5,Domestic households by household size,5
+dhz_6,Domestic households by household size,6 and over
+adhz,Average domestic household size,Average domestic household size
+dhc_1,Domestic households by household composition,Composed of couple(11)
+dhc_2,Domestic households by household composition,Composed of couple and unmarried children(12)
+dhc_3,Domestic households by household composition,Composed of lone parent and unmarried children(13)
+dhc_4,Domestic households by household composition,Composed of couple and at least one of their parents(14)
+dhc_5,Domestic households by household composition,"Composed of couple, at least one of their parents and their unmarried children(15)"
+dhc_6,Domestic households by household composition,Composed of other relationship combinations(16)
+dhc_7,Domestic households by household composition,One-person households(17)
+dhc_8,Domestic households by household composition,Non-relative households(18)
+dhi_1,Domestic households by monthly domestic household income (HK$),"Less than 6,000"
+dhi_2,Domestic households by monthly domestic household income (HK$),"6,000 - 9,999"
+dhi_3,Domestic households by monthly domestic household income (HK$),"10,000 - 19,999"
+dhi_4,Domestic households by monthly domestic household income (HK$),"20,000 - 29,999"
+dhi_5,Domestic households by monthly domestic household income (HK$),"30,000 - 39,999"
+dhi_6,Domestic households by monthly domestic household income (HK$),"40,000 - 59,999"
+dhi_7,Domestic households by monthly domestic household income (HK$),"60,000 and over"
+ma_hh,Median monthly domestic household income (HK$),Median monthly domestic household income (HK$)
+dhi_e1,Economically active domestic households by monthly domestic household income (HK$)(19),"Less than 6,000"
+dhi_e2,Economically active domestic households by monthly domestic household income (HK$)(19),"6,000 - 9,999"
+dhi_e3,Economically active domestic households by monthly domestic household income (HK$)(19),"10,000 - 19,999"
+dhi_e4,Economically active domestic households by monthly domestic household income (HK$)(19),"20,000 - 29,999"
+dhi_e5,Economically active domestic households by monthly domestic household income (HK$)(19),"30,000 - 39,999"
+dhi_e6,Economically active domestic households by monthly domestic household income (HK$)(19),"40,000 - 59,999"
+dhi_e7,Economically active domestic households by monthly domestic household income (HK$)(19),"60,000 and over"
+ma_econhh,Median monthly household income (HK$) of economically active domestic households(19),Median monthly household income (HK$) of economically active domestic households(19)
+oq_pub,Occupied quarters by type of housing,Public rental housing
+oq_s,Occupied quarters by type of housing,Subsidised home ownership housing
+oq_pri,Occupied quarters by type of housing,Private permanent housing
+oq_non,Occupied quarters by type of housing,Non-domestic housing
+oq_tem,Occupied quarters by type of housing,Temporary housing
+dh_pub,Domestic households by type of housing,Public rental housing
+dh_s,Domestic households by type of housing,Subsidised home ownership housing
+dh_pri,Domestic households by type of housing,Private permanent housing
+dh_non,Domestic households by type of housing,Non-domestic housing
+dh_tem,Domestic households by type of housing,Temporary housing
+pop_pub,Population by type of housing,Public rental housing
+pop_s,Population by type of housing,Subsidised home ownership housing
+pop_pri,Population by type of housing,Private permanent housing
+pop_non,Population by type of housing,Non-domestic housing
+pop_tem,Population by type of housing,Temporary housing
+dh_r1,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),1
+dh_r2,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),2
+dh_r3,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),3
+dh_r4,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),4
+dh_r5,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),5
+dh_r6,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),6 and over
+dh_r0,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),Without exclusively used rooms
+dh_ocm,Domestic households by tenure of accommodation,Owner-occupier - With mortgage or loan
+dh_ocwm,Domestic households by tenure of accommodation,Owner-occupier - Without mortgage and loan
+dh_st,Domestic households by tenure of accommodation,Sole tenant
+dh_co,Domestic households by tenure of accommodation,Co-tenant/ Main tenant/ Sub-tenant
+dh_rf,Domestic households by tenure of accommodation,Rent free
+dh_emp,Domestic households by tenure of accommodation,Provided by employer
+dhm_1,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),By non-household members only
+dhm_2,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"1 - 3,999"
+dhm_3,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"4,000 - 5,999"
+dhm_4,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"6,000 - 7,999"
+dhm_5,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"8,000 - 9,999"
+dhm_6,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"10,000 - 19,999"
+dhm_7,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"20,000 and over"
+dhm_loan,Median monthly domestic household mortgage payment and loan repayment (HK$),Median monthly domestic household mortgage payment and loan repayment (HK$)
+dhm_lr,Median monthly domestic household mortgage payment and loan repayment to income ratio,Median monthly domestic household mortgage payment and loan repayment to income ratio
+dhr_1,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"Less than 2,000(20)"
+dhr_2,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"2,000 - 5,999"
+dhr_3,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"6,000 - 9,999"
+dhr_4,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"10,000 and over"
+dm_r,Median monthly domestic household rent (HK$),Median monthly domestic household rent (HK$)
+dmr_ir,Median monthly domestic household rent to income ratio,Median monthly domestic household rent to income ratio
+fa_m,Median floor area of accommodation of domestic households (square metres)(21),Median floor area of accommodation of domestic households (square metres)(21)
+pm_hk,Population aged 5 and over having internally migrated(22) by area of residence 5 years ago,Hong Kong Island
+pm_kln,Population aged 5 and over having internally migrated(22) by area of residence 5 years ago,Kowloon
+pm_nt,Population aged 5 and over having internally migrated(22) by area of residence 5 years ago,New towns
+pm_oth,Population aged 5 and over having internally migrated(22) by area of residence 5 years ago,Other areas in the New Territories/ Marine
+pm_samearea,Population aged 5 and over not having internally migrated(22) by area of residence 5 years ago,Moved home within same area of residence
+pm_same,Population aged 5 and over not having internally migrated(22) by area of residence 5 years ago,Remained in same address(23)
+pm_out,Population aged 5 and over not having internally migrated(22) by area of residence 5 years ago,Place of residence outside Hong Kong

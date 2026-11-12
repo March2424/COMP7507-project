@@ -1,0 +1,171 @@
+﻿fid,type,list,name_en,name_zh,cluster,address,lon,lat,weight,dcca
+H000,HOSP,HOSP,"Cheshire Home, Chung Hom Kok",舂磡角慈氏護養院,Hong Kong Island,"128 Chung Hom Kok Road, HK",114.1973,22.212024,5,1416
+H001,HOSP,HOSP,Grantham Hospital,葛量洪醫院,Hong Kong Island,"125 Wong Chuk Hang Road, Aberdeen, HK",114.17316,22.251156,5,1415
+H002,HOSP,HOSP,MacLehose Medical Rehabilitation Centre,麥理浩復康院,Hong Kong Island,"7 Sha Wan Drive, Pokfulam, HK",114.12399,22.269795,5,1411
+H003,AE,HOSP,Pamela Youde Nethersole Eastern Hospital,東區尤德夫人那打素醫院,Hong Kong Island,"3 Lok Man Road, Chai Wan, HK",114.23643,22.26918,10,1332
+H004,AE,HOSP,Queen Mary Hospital,瑪麗醫院,Hong Kong Island,"102 Pokfulam Road, HK",114.13117,22.2704,10,1411
+H005,AE,HOSP,Ruttonjee Hospital,律敦治醫院,Hong Kong Island,"266 Queen's Road East, Wan Chai, HK",114.17529,22.275909,10,1201
+H006,AE,HOSP,St. John Hospital,長洲醫院,Hong Kong Island,"Cheung Chau Hospital Road, Tung Wan, Cheung Chau",114.03151,22.208059,10,3910
+H007,HOSP,HOSP,Tang Shiu Kin Hospital,鄧肇堅醫院,Hong Kong Island,"282 Queen's Road East, Wan Chai, HK",114.17774,22.275313,5,1202
+H008,HOSP,HOSP,The Duchess of Kent Children's Hospital at Sandy Bay,大口環根德公爵夫人兒童醫院,Hong Kong Island,"12 Sandy Bay Road, Pokfulam, HK",114.12424,22.271574,5,1411
+H009,HOSP,HOSP,Tsan Yuk Hospital,贊育醫院,Hong Kong Island,"30 Hospital Road, Sai Ying Pun, HK",114.14457,22.286146,5,1113
+H010,HOSP,HOSP,Tung Wah Eastern Hospital,東華東院,Hong Kong Island,"19 Eastern Hospital Road, Causeway Bay, HK",114.19026,22.274725,5,1208
+H011,HOSP,HOSP,Tung Wah Group of Hospitals Fung Yiu King Hospital,東華三院馮堯敬醫院,Hong Kong Island,"9 Sandy Bay Road, Pokfulam, HK",114.12483,22.271408,5,1411
+H012,HOSP,HOSP,Tung Wah Hospital,東華醫院,Hong Kong Island,"12 Po Yan Street, Sheung Wan, HK",114.14661,22.284955,5,1113
+H013,HOSP,HOSP,Wong Chuk Hang Hospital,黃竹坑醫院,Hong Kong Island,"2 Wong Chuk Hang Path, Wong Chuk Hang, HK",114.17591,22.250966,5,1415
+H014,HOSP,HOSP,Hong Kong Buddhist Hospital,香港佛教醫院,Kowloon Central,"10 Heng Lam Street, Lok Fu, KLN",114.18874,22.33568,5,2510
+H015,HOSP,HOSP,Hong Kong Children's Hospital,香港兒童醫院,Kowloon Central,"1 Shing Cheong Road, Kowloon Bay, KLN",114.20886,22.315757,5,2414
+H016,HOSP,HOSP,Hong Kong Eye Hospital,香港眼科醫院,Kowloon Central,"147K Argyle Street, KLN",114.18462,22.324927,5,2409
+H017,HOSP,HOSP,Hong Kong Red Cross Blood Transfusion Service,香港紅十字會輸血服務中心,Kowloon Central,"15 King's Park Rise, KLN",114.17443,22.310794,5,2717
+H018,HOSP,HOSP,Kai Tak Hospital,啟德醫院,Kowloon Central,"2-3 Shing Cheong Road, Kowloon Bay, Kowloon",114.20674,22.31764,5,2414
+H019,HOSP,HOSP,Kowloon Hospital,九龍醫院,Kowloon Central,"147A Argyle Street, KLN",114.17957,22.323708,5,2409
+H020,AE,HOSP,Kwong Wah Hospital,廣華醫院,Kowloon Central,"25 Waterloo Road, KLN",114.1721,22.31429,10,2716
+H021,HOSP,HOSP,Our Lady of Maryknoll Hospital,聖母醫院,Kowloon Central,"118 Shatin Pass Road, Wong Tai Sin, KLN",114.19657,22.345588,5,2504
+H022,AE,HOSP,Queen Elizabeth Hospital,伊利沙伯醫院,Kowloon Central,"30 Gascoigne Road, KLN",114.17519,22.30886,10,2717
+H023,HOSP,HOSP,Tung Wah Group of Hospitals Wong Tai Sin Hospital,東華三院黃大仙醫院,Kowloon Central,"124 Shatin Pass Road, Wong Tai Sin, KLN",114.19632,22.346808,5,2504
+H024,HOSP,HOSP,Haven of Hope Hospital,靈實醫院,Kowloon East,"8 Haven of Hope Road, Tseung Kwan O",114.25627,22.313773,5,3815
+H025,AE,HOSP,Tseung Kwan O Hospital,將軍澳醫院,Kowloon East,"No. 2 Po Ning Lane, Hang Hau, Tseung Kwan O",114.27021,22.317964,10,3824
+H026,AE,HOSP,United Christian Hospital,基督教聯合醫院,Kowloon East,"130 Hip Wo Street, Kwun Tong, KLN",114.2279,22.322291,10,2612
+H027,AE,HOSP,Caritas Medical Centre,明愛醫院,Kowloon West,"111 Wing Hong Street, Sham Shui Po, KLN",114.15231,22.340629,10,2320
+H028,HOSP,HOSP,Kwai Chung Hospital,葵涌醫院,Kowloon West,"3-15 Kwai Chung Hospital Road, NT",114.13336,22.342892,5,3118
+H029,AE,HOSP,North Lantau Hospital,北大嶼山醫院,Kowloon West,"8 Chung Yan Road, Tung Chung, Lantau Island",113.93914,22.282571,10,3901
+H030,AE,HOSP,Princess Margaret Hospital,瑪嘉烈醫院,Kowloon West,"2-10 Princess Margaret Hospital Road, Kwai Chung, New Territories",114.1347,22.340057,10,3118
+H031,AE,HOSP,Yan Chai Hospital,仁濟醫院,Kowloon West,"7-11 Yan Chai Street, Tsuen Wan, NT",114.11956,22.369548,10,3201
+H032,AE,HOSP,Alice Ho Miu Ling Nethersole Hospital,雅麗氏何妙齡那打素醫院,New Territories East,"11 Chuen On Road, Tai Po, NT",114.17479,22.458696,10,3605
+H033,HOSP,HOSP,Bradbury Hospice,白普理寧養中心,New Territories East,"17 A Kung Kok Shan Road, Shatin, NT",114.2151,22.398512,5,3740
+H034,HOSP,HOSP,"Cheshire Home, Shatin",沙田慈氏護養院,New Territories East,"30 A Kung Kok Shan Road, Shatin, NT",114.21653,22.39918,5,3740
+H035,AE,HOSP,North District Hospital,北區醫院,New Territories East,"9 Po Kin Road, Sheung Shui, New Territories",114.12456,22.496832,10,3510
+H036,AE,HOSP,Prince of Wales Hospital,威爾斯親王醫院,New Territories East,"30-32 Ngan Shing Street, Shatin, NT",114.20129,22.379939,10,3706
+H037,HOSP,HOSP,Shatin Hospital,沙田醫院,New Territories East,"33 A Kung Kok Street, Ma On Shan, Shatin, NT",114.21263,22.398115,5,3737
+H038,HOSP,HOSP,Tai Po Hospital,大埔醫院,New Territories East,"9 Chuen On Road, Tai Po, NT",114.17464,22.46143,5,3605
+H039,HOSP,HOSP,Castle Peak Hospital,青山醫院,New Territories West,"15 Tsing Chung Koon Road, Tuen Mun, NT",113.97374,22.410011,5,3327
+H040,AE,HOSP,Pok Oi Hospital,博愛醫院,New Territories West,"Au Tau, Yuen Long, NT",114.04159,22.44523,10,3411
+H041,HOSP,HOSP,Siu Lam Hospital,小欖醫院,New Territories West,"15 Tsing Chung Koon Road, Tuen Mun, N.T.",113.97487,22.41005,5,3327
+H042,AE,HOSP,Tin Shui Wai Hospital,天水圍醫院,New Territories West,"11 Tin Tan Street, Tin Shui Wai, NT",113.99585,22.458704,10,3424
+H043,AE,HOSP,Tuen Mun Hospital,屯門醫院,New Territories West,"23 Tsing Chung Koon Road, Tuen Mun, NT",113.97621,22.40708,10,3327
+S044,SOPC,SOPC,"Cheshire Home, Chung Hom Kok",舂磡角慈氏護養院,Hong Kong Island,"128 Chung Hom Kok Road, HK",114.1973,22.212024,3,1416
+S045,SOPC,SOPC,David Trench Rehabilitation Centre,戴麟趾康復中心,Hong Kong Island,"No. 1F, High Street, Hong Kong",114.14532,22.285424,3,1113
+S046,SOPC,SOPC,Grantham Hospital,葛量洪醫院,Hong Kong Island,"125 Wong Chuk Hang Road, Aberdeen, HK",114.17316,22.251156,3,1415
+S047,SOPC,SOPC,MacLehose Medical Rehabilitation Centre,麥理浩復康院,Hong Kong Island,"7 Sha Wan Drive, Pokfulam, HK",114.12399,22.269795,3,1411
+S048,SOPC,SOPC,Pamela Youde Nethersole Eastern Hospital,東區尤德夫人那打素醫院,Hong Kong Island,"3 Lok Man Road, Chai Wan, HK",114.23717,22.26899,3,1332
+S049,SOPC,SOPC,Queen Mary Hospital,瑪麗醫院,Hong Kong Island,"102 Pokfulam Road, HK",114.13117,22.2704,3,1411
+S050,SOPC,SOPC,Ruttonjee & Tang Shiu Kin Hospitals,律敦治及鄧肇堅醫院,Hong Kong Island,"266 Queen's Road East, Wan Chai, HK",114.17529,22.275909,3,1201
+S051,SOPC,SOPC,Sai Wan Ho Family Medicine Clinic,西灣河家庭醫學診所,Hong Kong Island,"1/F, 28 Tai Hong Street, Sai Wan Ho",114.22382,22.284589,3,1303
+S052,SOPC,SOPC,St. John Hospital,長洲醫院,Hong Kong Island,"Cheung Chau Hospital Road, Tung Wan, Cheung Chau",114.03151,22.208059,3,3910
+S053,SOPC,SOPC,Tang Shiu Kin Hospital Community Ambulatory Care Centre,鄧肇堅醫院社區日間醫療中心,Hong Kong Island,"282 Queen's Road East, Wan Chai, HK",114.17774,22.275313,3,1202
+S054,SOPC,SOPC,The Duchess of Kent Children's Hospital at Sandy Bay,大口環根德公爵夫人兒童醫院,Hong Kong Island,"12 Sandy Bay Road, Pokfulam, HK",114.12424,22.271574,3,1411
+S055,SOPC,SOPC,Tsan Yuk Hospital,贊育醫院,Hong Kong Island,"30 Hospital Road, Sai Ying Pun, HK",114.14457,22.286146,3,1113
+S056,SOPC,SOPC,Tung Wah Eastern Hospital,東華東院,Hong Kong Island,"19 Eastern Hospital Road, Causeway Bay, HK",114.19026,22.274725,3,1208
+S057,SOPC,SOPC,Tung Wah Group of Hospitals Fung Yiu King Hospital,東華三院馮堯敬醫院,Hong Kong Island,"9 Sandy Bay Road, Pokfulam, HK",114.12483,22.271408,3,1411
+S058,SOPC,SOPC,Tung Wah Hospital,東華醫院,Hong Kong Island,"12 Po Yan Street, Sheung Wan, HK",114.14661,22.284955,3,1113
+S059,SOPC,SOPC,"Community Rehabilitation Service Support Centre, Hospital Authority",醫院管理局社區復康中心,Kowloon Central,"1/F, North Wing, Multi-service Centre, Queen Elizabeth Hospital, 30 Gascoigne Road, Kowloon",114.1728,22.3089,3,2717
+S060,SOPC,SOPC,Hong Kong Buddhist Hospital,香港佛教醫院,Kowloon Central,"10 Heng Lam Street, Lok Fu, KLN",114.18874,22.33568,3,2510
+S061,SOPC,SOPC,Hong Kong Children's Hospital,香港兒童醫院,Kowloon Central,"1 Shing Cheong Road, Kowloon Bay, KLN",114.20886,22.315757,3,2414
+S062,SOPC,SOPC,Hong Kong Eye Hospital,香港眼科醫院,Kowloon Central,"147K Argyle Street, KLN",114.18462,22.324927,3,2409
+S063,SOPC,SOPC,Kowloon Hospital,九龍醫院,Kowloon Central,"147A Argyle Street, KLN",114.17957,22.323708,3,2409
+S064,SOPC,SOPC,Kwong Wah Hospital,廣華醫院,Kowloon Central,"25 Waterloo Road, KLN",114.1721,22.31429,3,2716
+S065,SOPC,SOPC,Our Lady of Maryknoll Hospital,聖母醫院,Kowloon Central,"118 Shatin Pass Road, Wong Tai Sin, KLN",114.19657,22.345588,3,2504
+S066,SOPC,SOPC,Queen Elizabeth Hospital,伊利沙伯醫院,Kowloon Central,"30 Gascoigne Road, KLN",114.17519,22.30886,3,2717
+S067,SOPC,SOPC,Tung Wah Group of Hospitals Wong Tai Sin Hospital,東華三院黃大仙醫院,Kowloon Central,"124 Shatin Pass Road, Wong Tai Sin, KLN",114.19632,22.346808,3,2504
+S068,SOPC,SOPC,Yau Ma Tei Jockey Club Family Medicine Clinic,油麻地賽馬會家庭醫學診所,Kowloon Central,"145 Battery Street, Yau Ma Tei",114.16927,22.30962,3,2704
+S069,SOPC,SOPC,Haven of Hope Hospital,靈實醫院,Kowloon East,"8 Haven of Hope Road, Tseung Kwan O",114.25627,22.313773,3,3815
+S070,SOPC,SOPC,Tseung Kwan O Hospital,將軍澳醫院,Kowloon East,"No. 2 Po Ning Lane, Hang Hau, Tseung Kwan O",114.27021,22.317964,3,3824
+S071,SOPC,SOPC,United Christian Hospital,基督教聯合醫院,Kowloon East,"130 Hip Wo Street, Kwun Tong, KLN",114.2279,22.322291,3,2612
+S072,SOPC,SOPC,Yung Fung Shee Memorial Centre,容鳳書紀念中心,Kowloon East,"79 Cha Kwo Ling Road, Kwun Tong, KLN",114.22886,22.307733,3,2627
+S073,SOPC,SOPC,Caritas Medical Centre,明愛醫院,Kowloon West,"111 Wing Hong Street, Sham Shui Po, KLN",114.15231,22.340629,3,2320
+S074,SOPC,SOPC,East Kowloon Psychiatric Centre,東九龍精神科中心,Kowloon West,"3/F, Stage II East Kowloon Polyclinic, 160 Hammer Hill Road, Diamond Hill, KLN",114.20795,22.338957,3,2524
+S075,SOPC,SOPC,Kwai Chung - Psychogeriatric Out-patient Department cum Carers Support Centre,葵涌老齡精神科門診部暨照顧者支援中心,Kowloon West,"3/F, Ha Kwai Chung Polyclinic, 77 Lai Cho Road, Kwai Chung, N.T.",114.12801,22.352426,3,3115
+S076,SOPC,SOPC,Kwai Chung Hospital,葵涌醫院,Kowloon West,"3-15 Kwai Chung Hospital Road, NT",114.13336,22.342892,3,3118
+S077,SOPC,SOPC,North Lantau Hospital,北大嶼山醫院,Kowloon West,"8 Chung Yan Road, Tung Chung, Lantau Island",113.93914,22.282571,3,3901
+S078,SOPC,SOPC,Princess Margaret Hospital,瑪嘉烈醫院,Kowloon West,"2-10 Princess Margaret Hospital Road, Kwai Chung, New Territories",114.13453,22.34153,3,3118
+S079,SOPC,SOPC,Yan Chai Hospital,仁濟醫院,Kowloon West,"7-11 Yan Chai Street, Tsuen Wan, NT",114.11956,22.369548,3,3201
+S080,SOPC,SOPC,Yaumatei Child and Adolescent Mental Health Service,油麻地兒童及青少年精神健康服務,Kowloon West,"8/F, Block T , Ambulatory Care Centre Extension, Queen Elizabeth Hospital",114.17582,22.308437,3,2717
+S081,SOPC,SOPC,Alice Ho Miu Ling Nethersole Hospital,雅麗氏何妙齡那打素醫院,New Territories East,"11 Chuen On Road, Tai Po, NT",114.17479,22.458696,3,3605
+S082,SOPC,SOPC,Bradbury Hospice,白普理寧養中心,New Territories East,"17 A Kung Kok Shan Road, Shatin, NT",114.2151,22.398512,3,3740
+S083,SOPC,SOPC,"Cheshire Home, Shatin",沙田慈氏護養院,New Territories East,"30 A Kung Kok Shan Road, Shatin, NT",114.21653,22.39918,3,3740
+S084,SOPC,SOPC,North District Hospital,北區醫院,New Territories East,"9 Po Kin Road, Sheung Shui, New Territories",114.12456,22.496832,3,3510
+S085,SOPC,SOPC,Prince of Wales Hospital,威爾斯親王醫院,New Territories East,"30-32 Ngan Shing Street, Shatin, NT",114.20129,22.379939,3,3706
+S086,SOPC,SOPC,Shatin Hospital,沙田醫院,New Territories East,"33 A Kung Kok Street, Ma On Shan, Shatin, NT",114.21263,22.398115,3,3737
+S087,SOPC,SOPC,Tai Po Hospital,大埔醫院,New Territories East,"9 Chuen On Road, Tai Po, NT",114.17464,22.46143,3,3605
+S088,SOPC,SOPC,Castle Peak Hospital,青山醫院,New Territories West,"15 Tsing Chung Koon Road, Tuen Mun, NT",113.97374,22.410011,3,3327
+S089,SOPC,SOPC,Pok Oi Hospital,博愛醫院,New Territories West,"Au Tau, Yuen Long, NT",114.04159,22.44523,3,3411
+S090,SOPC,SOPC,Tin Shui Wai Hospital,天水圍醫院,New Territories West,"11 Tin Tan Street, Tin Shui Wai, NT",113.99585,22.458704,3,3424
+S091,SOPC,SOPC,Tuen Mun Eye Centre,屯門眼科中心,New Territories West,"4 Tuen Lee Street, Tuen Mun, NT",113.97899,22.390855,3,3301
+S092,SOPC,SOPC,Tuen Mun Hospital,屯門醫院,New Territories West,"23 Tsing Chung Koon Road, Tuen Mun, NT",113.97621,22.40708,3,3327
+F093,FMC,FMC,Aberdeen Jockey Club Family Medicine Clinic,香港仔賽馬會家庭醫學診所,Hong Kong Island,"10 Aberdeen Reservoir Road, Aberdeen",114.15634,22.249953,2,1401
+F094,FMC,FMC,Ap Lei Chau Family Medicine Clinic,鴨脷洲家庭醫學診所,Hong Kong Island,"161 Ap Lei Chau Main Street, Ap Lei Chau",114.15361,22.243243,2,1403
+F095,FMC,FMC,Central District Family Medicine Clinic,中區家庭醫學診所,Hong Kong Island,"1 Kau U Fong, Central",114.15265,22.284513,2,1101
+F096,FMC,FMC,Chai Wan Family Medicine Clinic,柴灣家庭醫學診所,Hong Kong Island,"G/F, 1 Hong Man Street, Chai Wan",114.23426,22.265297,2,1333
+F097,FMC,FMC,Kennedy Town Jockey Club Family Medicine Clinic,堅尼地城賽馬會家庭醫學診所,Hong Kong Island,"45 Victoria Road, Kennedy Town",114.12396,22.281851,2,1107
+F098,FMC,FMC,North Lamma Family Medicine Clinic,北南丫家庭醫學診所,Hong Kong Island,"G/F, 100 Main Street, Yung Shue Wan, Lamma Island",114.11109,22.224294,2,3909
+F099,FMC,FMC,North Point Anne Black Family Medicine Clinic,北角柏立基夫人家庭醫學診所,Hong Kong Island,"1/F, 140 Tsat Tse Mui Road, North Point",114.205,22.291367,2,1323
+F100,FMC,FMC,Peng Chau Family Medicine Clinic,坪洲家庭醫學診所,Hong Kong Island,"G/F, 1A Shing Ka Road, Peng Chau",114.03922,22.28357,2,3908
+F101,FMC,FMC,Sai Wan Ho Family Medicine Clinic,西灣河家庭醫學診所,Hong Kong Island,"1/F, 28 Tai Hong Street, Sai Wan Ho",114.22382,22.284589,2,1303
+F102,FMC,FMC,Sai Ying Pun Jockey Club Family Medicine Clinic,西營盤賽馬會家庭醫學診所,Hong Kong Island,"134 Queen's Road West, Sai Ying Pun",114.14504,22.286435,2,1113
+F103,FMC,FMC,Shau Kei Wan Jockey Club Family Medicine Clinic,筲箕灣賽馬會家庭醫學診所,Hong Kong Island,"1/F, 8 Chai Wan Road, Shau Kei Wan",114.22834,22.276487,2,1307
+F104,FMC,FMC,Siu Sai Wan Family Medicine Clinic,小西灣家庭醫學診所,Hong Kong Island,"2/F, Siu Sai Wan Health Integrated Building, 11 Harmony Road, Siu Sai Wan, Chai Wan",114.24912,22.26404,2,1310
+F105,FMC,FMC,Sok Kwu Wan Family Medicine Clinic,索罟灣家庭醫學診所,Hong Kong Island,"G/F, 1 Second Street, Sok Kwu Wan, Lamma Island",114.13158,22.205599,2,3909
+F106,FMC,FMC,St. John Hospital Family Medicine Clinic,長洲醫院家庭醫學診所,Hong Kong Island,"1/F, Out-patient Department Block, St. John Hospital, Cheung Chau Hospital Road, Tung Wan, Cheung Chau",114.03111,22.20822,2,3910
+F107,FMC,FMC,Stanley Family Medicine Clinic,赤柱家庭醫學診所,Hong Kong Island,"G/F, 14 Wong Ma Kok Road, Stanley",114.21339,22.217729,2,1417
+F108,FMC,FMC,"Tung Wah Eastern Hospital Family Medicine Clinic (Clinic service is temporarily relocated to G/F, Ambulatory Medical Services Block, Ng Chong Sau Mei Integrated Diabetes Mellitus Research & Training Centre (Diabetes Centre), Tung Wah Eastern Hospital, 19 Eastern Hospital Road, Causeway Bay for renovation from 7th of September 2026. Clinic service is expected to resume at original site in the 2nd quarter of 2027.)",東華東院家庭醫學診所（本診所的服務由2026年9月7日起暫時遷往銅鑼灣東院道 19 號東華東院日間醫療服務大樓地下吳莊秀美綜合糖尿病科研及教學中心 (糖尿病中心)，以便進行內部裝修工程。服務預計於2027年第2季遷回原址。）,Hong Kong Island,"G/F, Main Block, Tung Wah Eastern Hospital, 19 Eastern Hospital Road, Causeway Bay",114.19074,22.27553,2,1208
+F109,FMC,FMC,Tung Wah Hospital Family Medicine Clinic,東華醫院家庭醫學診所,Hong Kong Island,"G/F, Hawkins Wing, Tung Wah Hospital, 12 Po Yan Street, Sheung Wan",114.14678,22.28546,2,1113
+F110,FMC,FMC,Wan Chai Violet Peel Family Medicine Clinic,灣仔貝夫人家庭醫學診所,Hong Kong Island,"LG, Tang Shiu Kin Hospital, Community Ambulatory Care Centre, 282 Queen’s Road East, Wanchai",114.17774,22.275313,2,1202
+F111,FMC,FMC,Wan Tsui Family Medicine Clinic,環翠家庭醫學診所,Hong Kong Island,"G/F, Lee Tsui House, Wan Tsui Estate, Chai Wan",114.23949,22.262901,2,1313
+F112,FMC,FMC,Central Kowloon Family Medicine Clinic,中九龍家庭醫學診所,Kowloon Central,"147A Argyle Street, Mongkok",114.17904,22.322407,2,2409
+F113,FMC,FMC,East Kowloon Family Medicine Clinic,東九龍家庭醫學診所,Kowloon Central,"160 Hammer Hill Road, Diamond Hill",114.20795,22.339517,2,2524
+F114,FMC,FMC,Hong Kong Buddhist Hospital Family Medicine Clinic,香港佛教醫院家庭醫學診所,Kowloon Central,"LG, Block A, Hong Kong Buddhist Hospital, 10 Heng Lam Street, Lok Fu",114.18874,22.33568,2,2510
+F115,FMC,FMC,Hung Hom Family Medicine Clinic,紅磡家庭醫學診所,Kowloon Central,"22 Station Lane, Hung Hom",114.1856,22.308139,2,2423
+F116,FMC,FMC,Kai Tak Hospital Family Medicine Integrated Centre,啟德醫院家庭醫學綜合中心,Kowloon Central,"1/F, Tower 4, Kai Tak Hospital, 2-3 Shing Cheong Road, Kowloon Bay",114.20634,22.31802,2,2414
+F117,FMC,FMC,Kowloon City Lee Kee Memorial Family Medicine Clinic,九龍城李基紀念家庭醫學診所,Kowloon Central,"99 Carpenter Road, Kowloon City",114.18904,22.330372,2,2411
+F118,FMC,FMC,Kwong Wah Hospital Family Medicine Clinic,廣華醫院家庭醫學診所,Kowloon Central,"1/F, TWGHs Tsui Tsin Tong Outpatient Building, Kwong Wah Hospital, 25 Waterloo Road, Yau Ma Tei",114.17168,22.31547,2,2716
+F119,FMC,FMC,Mong Kok Li Po Chun Family Medicine Clinic,旺角李寶椿家庭醫學診所,Kowloon Central,"22 Arran Street, Mongkok",114.16612,22.32275,2,2713
+F120,FMC,FMC,Our Lady of Maryknoll Hospital Family Medicine Clinic,聖母醫院家庭醫學診所,Kowloon Central,"G/F, Out-patient Block, Our Lady of Maryknoll Hospital,118 Shatin Pass Road, Wong Tai Sin",114.19657,22.345588,2,2504
+F121,FMC,FMC,San Po Kong Robert Black Family Medicine Clinic,新蒲崗柏立基家庭醫學診所,Kowloon Central,"600 Prince Edward Road East, San Po Kong",114.19563,22.332493,2,2508
+F122,FMC,FMC,To Kwa Wan Shun Tak Fraternal Association Leung Kau Kui Family Medicine Clinic,土瓜灣順德聯誼會梁銶琚家庭醫學診所,Kowloon Central,"2/F, Tokwawan Market & Government Offices Building, 165 Ma Tau Wai Road, Kowloon City",114.18799,22.317142,2,2404
+F123,FMC,FMC,Tsz Wan Shan Wu York Yu Family Medicine Clinic,慈雲山伍若瑜家庭醫學診所,Kowloon Central,"55 Sheung Fung Street, Tsz Wan Shan",114.19749,22.346915,2,2516
+F124,FMC,FMC,Wang Tau Hom Jockey Club Family Medicine Clinic,橫頭磡賽馬會家庭醫學診所,Kowloon Central,"200 Junction Road, Wang Tau Hom",114.18538,22.339114,2,2512
+F125,FMC,FMC,Yau Ma Tei Jockey Club Family Medicine Clinic,油麻地賽馬會家庭醫學診所,Kowloon Central,"1/F, 145 Battery Street, Yau Ma Tei",114.16927,22.30962,2,2704
+F126,FMC,FMC,Kowloon Bay Family Medicine Clinic,九龍灣家庭醫學診所,Kowloon East,"1/F, 9 Kai Yan Street, Kowloon Bay",114.2071,22.328627,2,2603
+F127,FMC,FMC,Kwun Tong Family Medicine Integrated Centre,觀塘家庭醫學綜合中心,Kowloon East,"UG, 60 Hip Wo Street, Kwun Tong",114.22601,22.31515,2,2632
+F128,FMC,FMC,Lam Tin Family Medicine Clinic,藍田家庭醫學診所,Kowloon East,"99 Kai Tin Road, Lam Tin",114.23333,22.310567,2,2628
+F129,FMC,FMC,Ngau Tau Kok Jockey Club Family Medicine Clinic,牛頭角賽馬會家庭醫學診所,Kowloon East,"G/F, 60 Ting On Street, Ngau Tau Kok",114.21696,22.317065,2,2601
+F130,FMC,FMC,Sai Kung Mona Fong Family Medicine Clinic,西貢方逸華家庭醫學診所,Kowloon East,"G/F, 23 Man Nin Street, Sai Kung",114.27225,22.381755,2,3801
+F131,FMC,FMC,Shun Lee Family Medicine Clinic,順利家庭醫學診所,Kowloon East,"G/F, Lee Foo House, Shun Lee Estate, Kwun Tong",114.22689,22.330012,2,2610
+F132,FMC,FMC,Tseung Kwan O (Po Ning Road) Family Medicine Clinic,將軍澳（寶寧路）家庭醫學診所,Kowloon East,"G/F, 28 Po Ning Road, Tseung Kwan O",114.26794,22.317785,2,3824
+F133,FMC,FMC,Tseung Kwan O Jockey Club Family Medicine Clinic,將軍澳賽馬會家庭醫學診所,Kowloon East,"99 Po Lam Road North, G/F, Tseung Kwan O",114.25946,22.325159,2,3805
+F134,FMC,FMC,Tseung Kwan O South Family Medicine Clinic,將軍澳南家庭醫學診所,Kowloon East,"1/F, Tseung Kwan O Government Offices, North Tower, 30 Tong Yin Street, Tseung Kwan O",114.25658,22.30446,2,3810
+F135,FMC,FMC,Caritas Medical Centre Family Medicine Clinic,明愛醫院家庭醫學診所,Kowloon West,"G/F, Wai Ming Block, Caritas Medical Centre, 111 Wing Hong Street, Sham Shui Po",114.15231,22.340629,2,2320
+F136,FMC,FMC,Cheung Sha Wan Jockey Club Family Medicine Clinic,長沙灣賽馬會家庭醫學診所,Kowloon West,"2 Kwong Lee Road, Cheung Sha Wan",114.15852,22.340467,2,2321
+F137,FMC,FMC,Ha Kwai Chung Family Medicine Clinic,下葵涌家庭醫學診所,Kowloon West,"77 Lai Cho Road, Kwai Chung",114.12801,22.352426,2,3115
+F138,FMC,FMC,Kwai Chung Mrs Wu York Yu Family Medicine Clinic,葵涌伍若瑜夫人家庭醫學診所,Kowloon West,"310 Wo Yi Hop Road, Lei Muk Shue, Kwai Chung",114.13674,22.376161,2,3108
+F139,FMC,FMC,Mui Wo Family Medicine Clinic,梅窩家庭醫學診所,Kowloon West,"G/F, & 1/F, Mui Wo Government Offices, 2 Ngan Kwong Wan Road, Mui Wo, Lantau Island",113.99797,22.266111,2,3901
+F140,FMC,FMC,Nam Cheong Family Medicine Clinic,南昌家庭醫學診所,Kowloon West,"G/F, Treasury Building, 3 Tonkin Street West, Cheung Sha Wan",114.15418,22.33036,2,2309
+F141,FMC,FMC,Nam Shan Family Medicine Clinic,南山家庭醫學診所,Kowloon West,"G/F, Nam Yiu House, Nam Shan Estate, Sham Shui Po",114.17068,22.334129,2,2325
+F142,FMC,FMC,"North Kwai Chung Family Medicine Clinic (Clinic service is temporarily relocated to 3/F, Ha Kwai Chung Polyclinic, 77 Lai Cho Road, Kwai Chung for renovation from 31 August 2026. Clinic service is expected to resume at original site in the 2nd quarter of 2027.)",北葵涌家庭醫學診所（本診所的服務由2026年8月31日起暫時遷往葵涌麗祖路77號下葵涌分科診所3樓，以便進行內部裝修工程。服務預計於2027年第2季遷回原址。）,Kowloon West,"125 Tai Pak Tin Street, Kwai Chung",114.12801,22.352426,2,3115
+F143,FMC,FMC,North Lantau Family Medicine Integrated Centre (North Lantau Hospital),北大嶼山家庭醫學綜合中心（北大嶼山醫院）,Kowloon West,"3/F, North Lantau Hospital, No.8, Chung Yan Road, Tung Chung, Lantau Island",113.93914,22.282571,2,3901
+F144,FMC,FMC,Shek Kip Mei Family Medicine Clinic,石硤尾家庭醫學診所,Kowloon West,"201B, 2/F, Mei Hei House, Shek Kip Mei Estate, Sham Shui Po",114.16741,22.33184,2,2305
+F145,FMC,FMC,South Kwai Chung Jockey Club Family Medicine Clinic,南葵涌賽馬會家庭醫學診所,Kowloon West,"310 Kwai Shing Circuit, Kwai Chung",114.1254,22.360806,2,3102
+F146,FMC,FMC,Tai O Jockey Club Family Medicine Clinic,大澳賽馬會家庭醫學診所,Kowloon West,"G/F, 103 Shek Tsai Po Street, Tai O, Lantau Island",113.85801,22.255756,2,3901
+F147,FMC,FMC,Tsing Yi Cheung Hong Family Medicine Clinic,青衣長康家庭醫學診所,Kowloon West,"3/F, Tsing Yi Cheung Hong Commercial Centre No.1, Cheung Hong Estate, Tsing Yi",114.10594,22.348915,2,3126
+F148,FMC,FMC,Tsing Yi Town Family Medicine Clinic,青衣市區家庭醫學診所,Kowloon West,"21 Tsing Luk Street, Tsing Yi",114.10593,22.354459,2,3122
+F149,FMC,FMC,Tsuen Wan Lady Trench Family Medicine Clinic,荃灣戴麟趾夫人家庭醫學診所,Kowloon West,"213 Sha Tsui Road, Tsuen Wan",114.11554,22.370556,2,3201
+F150,FMC,FMC,West Kowloon Family Medicine Clinic,西九龍家庭醫學診所,Kowloon West,"G/F, Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road, Sham Shui Po",114.16045,22.331859,2,2310
+F151,FMC,FMC,Yan Chai Hospital Family Medicine Clinic,仁濟醫院家庭醫學診所,Kowloon West,"3/F, Block C, Yan Chai Hospital, 7-11 Yan Chai Street, Tsuen Wan",114.11956,22.369548,2,3201
+F152,FMC,FMC,Fanling Family Medicine Clinic,粉嶺家庭醫學診所,New Territories East,"1/F, Fanling Health Centre, 2 Pik Fung Road, Fanling",114.13905,22.49632,2,3502
+F153,FMC,FMC,Lek Yuen Family Medicine Clinic,瀝源家庭醫學診所,New Territories East,"G/F, 9 Lek Yuen Street, Shatin",114.19182,22.383778,2,3702
+F154,FMC,FMC,Ma On Shan Family Medicine Clinic,馬鞍山家庭醫學診所,New Territories East,"G/F, 609 Sai Sha Road, Ma On Shan",114.23494,22.425074,2,3731
+F155,FMC,FMC,North District Family Medicine Integrated Centre,北區家庭醫學綜合中心,New Territories East,"3/F, North District Community Health Centre Building, No.3 Wai Wo Street, Sheung Shui",114.127867,22.498377,2,3510
+F156,FMC,FMC,Sha Tau Kok Family Medicine Clinic,沙頭角家庭醫學診所,New Territories East,"G/F, 58 Sha Tau Kok Road (Shek Chung Au), Sha Tau Kok",114.21016,22.536011,2,3516
+F157,FMC,FMC,Shatin (Tai Wai) Family Medicine Clinic,沙田（大圍）家庭醫學診所,New Territories East,"G/F, 2 Man Lai Road, Tai Wai",114.18411,22.377521,2,3701
+F158,FMC,FMC,Ta Kwu Ling Family Medicine Clinic,打鼓嶺家庭醫學診所,New Territories East,"G/F, Ta Kwu Ling Rural Centre Government Building, 136 Ping Che Road, Ta Kwu Ling",114.16064,22.5245,2,3516
+F159,FMC,FMC,Tai Po Jockey Club Family Medicine Clinic,大埔賽馬會家庭醫學診所,New Territories East,"G/F, 37 Ting Kok Road, Tai Po",114.16577,22.454018,2,3616
+F160,FMC,FMC,Tai Po Wong Siu Ching Family Medicine Clinic,大埔王少清家庭醫學診所,New Territories East,"G/F, 1 Po Wu Lane, Tai Po",114.16808,22.450162,2,3608
+F161,FMC,FMC,Yuen Chau Kok Family Medicine Clinic,圓洲角家庭醫學診所,New Territories East,"G/F, 29 Chap Wai Kon Street, Shatin",114.20151,22.382477,2,3706
+F162,FMC,FMC,Kam Tin Family Medicine Clinic,錦田家庭醫學診所,New Territories West,"200 Kam Tin Road, Shek Kong",114.07474,22.440106,2,3438
+F163,FMC,FMC,Tin Shui Wai (Tin Shui Road) Family Medicine Clinic,天水圍（天瑞路）家庭醫學診所,New Territories West,"3 Tin Shui Road, Tin Shui Wai",114.00144,22.454546,2,3422
+F164,FMC,FMC,Tin Shui Wai (Tin Yip Road) Family Medicine Integrated Centre,天水圍（天業路）家庭醫學綜合中心,New Territories West,"3, Tin Yip Road, Tin Shui Wai (Opposite Hong Kong Wetland Park and Vianni Cove of Tin Kwai Road)",114.00583,22.465478,2,3429
+F165,FMC,FMC,Tuen Mun Family Medicine Clinic,屯門家庭醫學診所,New Territories West,"11 Tsing Yin Street, San Hui, Tuen Mun",113.97571,22.399656,2,3311
+F166,FMC,FMC,Tuen Mun Wu Hong Family Medicine Clinic,屯門湖康家庭醫學診所,New Territories West,"2 Wu Hong Street, Tuen Mun",113.96713,22.37715,2,3315
+F167,FMC,FMC,Tuen Mun Yan Oi Family Medicine Clinic,屯門仁愛家庭醫學診所,New Territories West,"G/F, 6 Tuen Lee Street, Tuen Mun",113.97914,22.391226,2,3301
+F168,FMC,FMC,Yuen Long Jockey Club Family Medicine Clinic,元朗賽馬會家庭醫學診所,New Territories West,"269 Castle Peak Road (Yuen Long), Yuen Long",114.02317,22.445601,2,3406
+F169,FMC,FMC,Yuen Long Madam Yung Fung Shee Family Medicine Clinic,元朗容鳳書家庭醫學診所,New Territories West,"26 Sai Ching Street, Yuen Long",114.0271,22.441017,2,3401
